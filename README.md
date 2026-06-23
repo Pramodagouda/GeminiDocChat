@@ -45,7 +45,7 @@ A Retrieval-Augmented Generation (RAG) application built with **LangChain**, **S
 | Embeddings | `all-MiniLM-L6-v2` (HuggingFace) |
 | Vector Store | ChromaDB |
 | Hybrid Retrieval | BM25 + Chroma Vector Search |
-| Text Splitting | Recursive Character Text Splitter (800 char chunks, 100 overlap) |
+| Text Splitting | Recursive Character Text Splitter (800 char chunks, 200 overlap) |
 | Document Loaders | PyPDF, Unstructured (Word, PPT, Excel), CSV, Text, Markdown |
 | API Key Management | `python-dotenv` |
 
